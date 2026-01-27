@@ -27,7 +27,7 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="mx-auto max-w-6xl px-4 py-10">
+        <main className="mx-auto max-w-6xl bg-state-50 px-4 py-10">
           {children}
         </main>
 
