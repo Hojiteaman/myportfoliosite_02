@@ -101,6 +101,37 @@ function CircleProgress({ value }: { value: number }) {
 export default function HomePage() {
   return (
     <section className="grid gap-14">
+      {/* ===== Profile Section ===== */}
+      <section className="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
+        {/* Profile Image */}
+        <div className="flex-shrink-0">
+          <Image
+            src="/profile.jpg"
+            alt="プロフィール写真"
+            width={180}
+            height={180}
+            className="rounded-full object-cover shadow-md"
+            priority
+          />
+        </div>
+
+        {/* Profile Text */}
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            植杉 匠
+          </h1>
+
+          <p className="text-lg text-gray-700 leading-relaxed mb-3">
+            公立諏訪東京理科大学 工学・マネジメント研究科　工学・マネジメント専攻　修士課程 山口武彦研究室所属
+          </p>
+
+          <p className="text-gray-600">
+            ユーザー体験を重視した設計と、保守性の高いコードを書くことを心がけています。
+          </p>
+        </div>
+      </section>
+      {/* ===== /Profile Section ===== */}
+
       {/* Hero Section */}
       <div className="rounded-2xl bg-white p-8 shadow">
         <h2 className="mt-4 text-center text-sm font-medium text-gray-900">Welcome to My Portfolio</h2>
