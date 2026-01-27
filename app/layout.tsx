@@ -17,11 +17,11 @@ export default function RootLayout({
       <body className="min-h-screen bg-gray-50 text-gray-900">
         <header className="sticky top-0 z-50 bg-white shadow-sm">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-            <h1 className="text-xl font-bold">My Portfolio</h1>
+            <h1 className="mt-4 text-center text-sm font-medium text-gray-900">植杉匠のポートフォリオ</h1>
             <nav className="space-x-6 text-sm font-medium">
               <Link href="/" className="hover:text-blue-600">Home</Link>
               <Link href="/about" className="hover:text-blue-600">About</Link>
-              <Link href="/works" className="hover:text-blue-600">Works</Link>
+              <Link href="/works" className="mt-4 text-center text-sm font-medium text-gray-900">Works</Link>
               <Link href="/contact" className="hover:text-blue-600">Contact</Link>
             </nav>
           </div>

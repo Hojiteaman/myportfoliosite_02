@@ -105,8 +105,7 @@ export default function HomePage() {
       <div className="rounded-2xl bg-white p-8 shadow">
         <h2 className="mt-4 text-center text-sm font-medium text-gray-900">Welcome to My Portfolio</h2>
         <p className="mb-6 text-gray-700">
-          フロントエンド開発・UIデザイン・XR/IoT などに取り組んでいます。
-          これまでの制作物や研究内容をまとめています。
+          公立諏訪東京理科大学 工学・マネジメント研究科　工学・マネジメント専攻　修士課程 山口武彦研究室所属
         </p>
         <div className="flex flex-wrap gap-4">
           <a
