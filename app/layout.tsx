@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className="min-h-screen bg-gray-50 text-gray-900">
+      <body className="min-h-screen bg-state-50 text-gray-900">
         <header className="sticky top-0 z-50 bg-white shadow-sm">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
             <h1 className="mt-4 text-center text-sm font-medium text-gray-900">植杉匠のポートフォリオ</h1>
