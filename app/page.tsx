@@ -1,18 +1,18 @@
 import Image from 'next/image'
 
 const skills = [
-  { name: 'VR', level: 85, icon: '/icons/vr.png' },
+  { name: 'VR', level: 75, icon: '/icons/vr.png' },
   { name: 'JavaScript', level: 75, icon: '/icons/js.png' },
-  { name: 'C#', level: 80, icon: '/icons/csharp.png' },
-  { name: 'Unity', level: 80, icon: '/icons/unity.png' },
-  { name: 'Java', level: 65, icon: '/icons/java.png' },
-  { name: 'Python', level: 70, icon: '/icons/python.png' },
-  { name: 'Matlab', level: 60, icon: '/icons/matlab.png' },
-  { name: 'C', level: 60, icon: '/icons/c.png' },
-  { name: 'C++', level: 65, icon: '/icons/cpp.png' },
+  { name: 'C#', level: 75, icon: '/icons/csharp.png' },
+  { name: 'Unity', level: 75, icon: '/icons/unity.png' },
+  { name: 'Java', level: 50, icon: '/icons/java.png' },
+  { name: 'Python', level: 50, icon: '/icons/python.png' },
+  { name: 'Matlab', level: 50, icon: '/icons/matlab.png' },
+  { name: 'C', level: 50, icon: '/icons/c.png' },
+  { name: 'C++', level: 50, icon: '/icons/cpp.png' },
   { name: 'HTML5', level: 75, icon: '/icons/html.png' },
-  { name: 'TypeScript', level: 70, icon: '/icons/ts.png' },
-  { name: 'CSS', level: 65, icon: '/icons/css.png' },
+  { name: 'TypeScript', level: 50, icon: '/icons/ts.png' },
+  { name: 'CSS', level: 25, icon: '/icons/css.png' },
 ]
 
 function CircleProgress({ value }: { value: number }) {
