@@ -175,7 +175,7 @@ export default function HomePage() {
                   }`}
                 >
                   <p className="mb-1 text-sm font-semibold text-blue-500">{item.period}</p>
-                  <h4 className="mb-2 text-lg font-bold">{item.title}</h4>
+                  <h4 className="mb-2 text-lg font-bold text-gray-900">{item.title}</h4>
                   <p className="text-sm text-gray-700 whitespace-pre-line">{item.description}</p>
                 </div>
               </div>
