@@ -106,7 +106,7 @@ export default function HomePage() {
         {/* Profile Image */}
         <div className="flex-shrink-0">
           <Image
-            src="/profile.jpg"
+            src="/profile.png"
             alt="プロフィール写真"
             width={180}
             height={180}
