@@ -9,21 +9,21 @@ export default function AxisPage() {
       {/* ===== グラフィカルエリア ===== */}
       <section className="relative mb-24 flex h-[420px] items-center justify-center md:h-[480px]">
         {/* 円① 強み */}
-        <AxisCircle className="md:absolute md:left-1/2 md:top-24 md:-translate-x-64">
+        <AxisCircle className="md:absolute md:left-1/2 md:top-24 md:-translate-x-72">
           自分の強みが
           <br />
           活かせる業種
         </AxisCircle>
 
         {/* 円② 趣味 */}
-        <AxisCircle className="md:absolute md:right-1/2 md:top-24 md:translate-x-64">
+        <AxisCircle className="md:absolute md:right-1/2 md:top-24 md:translate-x-72">
           自分の趣味を
           <br />
           楽しめる環境
         </AxisCircle>
 
         {/* 円③ 価値 */}
-        <AxisCircle className="md:absolute md:bottom-12">
+        <AxisCircle className="md:absolute md:bottom-4">
           価値の高いものを
           <br />
           提供できる環境
