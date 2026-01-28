@@ -1,13 +1,13 @@
 export default function AxisPage() {
   return (
-    <main className="mx-auto max-w-6xl px-4 py-16">
+    <main className="mx-auto max-w-5xl px-4 py-16">
       {/* タイトル */}
-      <h1 className="mb-12 text-2xl font-bold text-gray-900">
+      <h1 className="mb-16 text-2xl font-bold text-gray-900">
         企業選びの軸
       </h1>
 
-      {/* 上段 */}
-      <div className="mb-16 grid grid-cols-1 gap-12 md:grid-cols-2">
+      {/* 上段：2つ */}
+      <div className="mb-20 grid grid-cols-1 place-items-center gap-12 md:grid-cols-2">
         <AxisOval>
           自分の強みが
           <br />
@@ -21,7 +21,7 @@ export default function AxisPage() {
         </AxisOval>
       </div>
 
-      {/* 下段（中央） */}
+      {/* 下段：中央に1つ */}
       <div className="flex justify-center">
         <AxisOval large>
           価値の高いものを
@@ -33,7 +33,6 @@ export default function AxisPage() {
   )
 }
 
-/* 楕円コンポーネント */
 function AxisOval({
   children,
   large = false,
@@ -50,11 +49,11 @@ function AxisOval({
         text-center
         text-white
         font-semibold
-        shadow-md
+        shadow-lg
         ${
           large
-            ? "h-40 w-96 text-lg"
-            : "h-32 w-80 text-base"
+            ? "h-40 w-[28rem] text-lg"
+            : "h-32 w-[22rem] text-base"
         }
       `}
     >

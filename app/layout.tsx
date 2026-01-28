@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className="min-h-screen bg-white text-gray-900">
         <header className="sticky top-0 z-50 bg-white shadow-sm">
-          <div className="mx-auto flex max-w-6xl items-center bg-gray-400 justify-between px-4 py-4">
+          <div className="mx-auto flex max-w-6xl items-center bg-white justify-between px-4 py-4">
             <h1 className="mt-4 text-center text-sm font-medium text-gray-900">植杉匠のポートフォリオ</h1>
             <nav className="space-x-6 text-sm font-medium">
               <Link href="/" className="hover:text-blue-600">Home</Link>
