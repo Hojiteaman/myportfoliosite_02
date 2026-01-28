@@ -30,9 +30,9 @@ const experience = [
   },
   {
     period: '2023 -',
-    title: 'フランス短期留学',
+    title: 'Project Based Learning',
     description:
-      'SIEインターン終了後すぐに渡仏し1か月滞在。現地教授主導プロジェクトに参加し、国際協働を経験。',
+      'フランス人留学生とチームを組み、「仮想食」をテーマに開発。',
   },
   {
     period: '2023 -',
@@ -42,9 +42,9 @@ const experience = [
   },
   {
     period: '2023 -',
-    title: 'Project Based Learning',
+    title: 'フランス短期留学',
     description:
-      'フランス人留学生とチームを組み、「仮想食」をテーマに開発。',
+      'SIEインターン終了後すぐに渡仏し1か月滞在。現地教授主導プロジェクトに参加し、国際協働を経験。',
   },
   {
     period: '2024 - 2025',
@@ -54,15 +54,16 @@ const experience = [
   },
   {
     period: '2025 -',
+    title: '公立諏訪東京理科大学 大学院進学',
+    description: 'ヒューマンインタフェース分野で研究を継続予定。',
+  },
+  {
+    period: '2025 -',
     title: 'HCI International 2025 参加',
     description:
       'HCI分野の国際学会に参加。卒業研究の成果を英語で発表し質疑応答を経験。',
   },
-  {
-    period: '2025 -',
-    title: '公立諏訪東京理科大学 大学院進学',
-    description: 'ヒューマンインタフェース分野で研究を継続予定。',
-  },
+  
 ]
 
 
@@ -158,7 +159,7 @@ export default function HomePage() {
 
       {/* Skills Section */}
       <div className="grid gap-6">
-        <h3 className="text-2xl font-bold">Skills</h3>
+        <h3 className="text-2xl font-bold text-gray-900">Skills</h3>
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
           {skills.map((skill) => (
             <div
@@ -186,7 +187,7 @@ export default function HomePage() {
       </div>
       {/* Experience Section */}
       <div className="grid gap-8">
-        <h3 className="text-2xl font-bold text-center">Experience</h3>
+        <h3 className="text-2xl font-bold text-gray-900 text-center">Experience</h3>
         <div className="relative mx-auto w-full max-w-4xl">
           {/* vertical line */}
           <div className="absolute left-1/2 top-0 h-full w-[2px] -translate-x-1/2 bg-blue-200" />
