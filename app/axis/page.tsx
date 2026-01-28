@@ -23,7 +23,7 @@ export default function AxisPage() {
         </AxisCircle>
 
         {/* 円③ 価値 */}
-        <AxisCircle className="md:absolute md:bottom-4">
+        <AxisCircle className="md:absolute md:bottom-8">
           価値の高いものを
           <br />
           提供できる環境
@@ -42,16 +42,19 @@ export default function AxisPage() {
         <AxisText
           title="自分の強みが活かせる業種"
           text="これまでの研究や開発経験を通して、自分の得意分野や強みを活かせる環境でこそ、最大限の成果を発揮できると考えています。"
+          text2=""
         />
 
         <AxisText
           title="自分の趣味を楽しめる環境"
-          text="技術やものづくりを楽しめることは、継続的な成長につながります。興味を持って主体的に取り組める環境を重視しています。"
+          text="趣味はリフレッシュだけでなく、新たな発想や創造力を育む源泉でもあります。趣味を楽しみながら働ける環境は、仕事の質を高めると考えています"
+          text2=""
         />
 
         <AxisText
-          title="価値の高いものを提供できる環境"
-          text="社会やユーザーにとって意味のある価値を生み出せることが、仕事へのやりがいにつながると考えています。"
+          title="独自の強みで価値を創出できる環境"
+          text="AIが台等する時代でも独自の強みで他にはない価値を創出できる企業の一員で仕事をし、成長していきたい"
+          text2=""
         />
       </section>
     </main>
@@ -90,9 +93,11 @@ function AxisCircle({
 function AxisText({
   title,
   text,
+  text2,
 }: {
   title: string
   text: string
+  text2: string
 }) {
   return (
     <div>
@@ -100,6 +105,7 @@ function AxisText({
         {title}
       </h2>
       <p>{text}</p>
+      <p>{text2}</p>
     </div>
   )
 }
