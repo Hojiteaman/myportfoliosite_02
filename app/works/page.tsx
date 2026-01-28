@@ -1,35 +1,42 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 
 const works = [
   {
+    slug: "france",
     title: "フランス短期留学",
     image: "/works/france.jpg",
-    description: "フランスで1ヶ月間の短期留学。現地学生と共同プロジェクトに参加。",
+    description: "フランスで1ヶ月間の短期留学。現地大学との共同プロジェクトに参加。",
   },
   {
+    slug: "drone-vr",
     title: "ドローンをVRHMDで操作するアプリの開発",
     image: "/works/drone-vr.png",
     description: "UnityとVR HMDを用いて、ドローンを直感的に操作するシステムを開発。",
   },
   {
+    slug: "pbl",
     title: "PBL(Project Base Learning)",
     image: "/works/pbl.jpg",
     description: "フランス人留学生とチームを組み、仮想食をテーマに開発。",
   },
   {
+    slug: "remote-desktop",
     title: "リモートデスクトップアプリの開発",
     image: "/works/remote-desktop.png",
-    description: "WebRTCを用いた低遅延リモート操作アプリを実装。",
+    description: "WebRTCを用いたリモート操作アプリを実装。",
   },
   {
+    slug: "bicycle",
     title: "自転車旅",
-    image: "/works/bicycle.jpeg",
+    image: "/works/bicycle.jpg",
     description: "長野から京都まで約300kmを5日間で走破。計画力と継続力を培った。",
   },
   {
+    slug: "research",
     title: "研究内容",
     image: "/works/research.png",
     description: "VR機器使用時のドライアイリスク低減を目的とした卒業研究。",
@@ -48,12 +55,11 @@ export default function WorksPage() {
           const isActive = activeIndex === idx
 
           return (
-            <div
-              key={work.title}
-              className="relative overflow-hidden rounded-2xl bg-white shadow"
-              onClick={() =>
-                setActiveIndex(isActive ? null : idx)
-              }
+            <Link
+              key={work.slug}
+              href={`/works/${work.slug}`}
+              className="group relative overflow-hidden rounded-2xl bg-white shadow"
+              onClick={() => setActiveIndex(idx)}
             >
               <div className="relative h-48 w-full">
                 <Image
@@ -64,17 +70,18 @@ export default function WorksPage() {
                 />
               </div>
 
-              {/* Overlay (PC hover + Mobile tap) */}
+              {/* Overlay */}
               <div
                 className={`absolute inset-0 flex flex-col justify-end bg-black/60 p-4 text-white transition-opacity duration-300
-                  ${isActive ? "opacity-100" : "opacity-0 hover:opacity-100"}`}
+                  ${isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}
               >
                 <h3 className="text-lg font-semibold">{work.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed">
                   {work.description}
                 </p>
+                <p className="mt-2 text-xs opacity-80">タップで詳細を見る</p>
               </div>
-            </div>
+            </Link>
           )
         })}
       </div>
