@@ -23,6 +23,7 @@ export default function RootLayout({
               <Link href="/about" className="hover:text-blue-600">About</Link>
               <Link href="/works" className="mt-4 text-center text-sm font-medium text-gray-900">Works</Link>
               <Link href="/contact" className="hover:text-blue-600">Contact</Link>
+              <Link href="/axis" className="hover:underline">企業選びの軸</Link>
             </nav>
           </div>
         </header>
