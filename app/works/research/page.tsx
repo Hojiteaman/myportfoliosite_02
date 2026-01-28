@@ -13,7 +13,7 @@ export default function WorkDetailPage({
         alt="Research"
         fill
         priority
-        className="object-cover"
+        className="object-contain bg-black pt-safe"
         />
       <h1 className="text-3xl font-bold">{params.slug}</h1>
       <p className="text-gray-700">
