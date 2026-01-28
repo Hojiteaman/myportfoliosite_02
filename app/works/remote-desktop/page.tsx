@@ -13,7 +13,7 @@ export default function WorkDetailPage({
                 alt="remote desktop"
                 fill
                 priority
-                className="object-contain bg-black pt-safe"
+                className="object-cover"
                 />
       <h1 className="text-3xl font-bold">{params.slug}</h1>
       <p className="text-gray-700">
