@@ -27,7 +27,7 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
-        <main className="w-full bg-white px-4 py-10">
+        <main className="min-h-screen w-full bg-white px-4 py-10">
           {children}
         </main>
 
