@@ -23,7 +23,7 @@ export default function AxisPage() {
         </AxisCircle>
 
         {/* 円③ 価値 */}
-        <AxisCircle className="md:absolute md:bottom-8">
+        <AxisCircle className="md:absolute md:bottom-1">
           価値の高いものを
           <br />
           提供できる環境
