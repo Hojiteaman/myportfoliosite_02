@@ -26,7 +26,6 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
-        /*背景色*/
         <main className="mx-auto max-w-6xl bg-gray-100 px-4 py-10">
           {children}
         </main>
