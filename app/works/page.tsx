@@ -32,7 +32,7 @@ const works = [
   {
     slug: "bicycle",
     title: "自転車旅",
-    image: "/works/bicycle.jpg",
+    image: "/works/bicycle.jpeg",
     description: "長野から京都まで約300kmを5日間で走破。計画力と継続力を培った。",
   },
   {

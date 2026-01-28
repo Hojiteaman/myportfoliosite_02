@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation"
+import Image from "next/image"
 
 export default function WorkDetailPage({
   params,
@@ -7,9 +8,16 @@ export default function WorkDetailPage({
 }) {
   return (
     <section className="mx-auto max-w-3xl space-y-6">
+        <Image
+        src="/works/research.png"
+        alt="Research"
+        fill
+        priority
+        className="object-cover"
+        />
       <h1 className="text-3xl font-bold">{params.slug}</h1>
       <p className="text-gray-700">
-        ここに実績の詳細説明を書きます。
+        研究内容
       </p>
     </section>
   )
