@@ -8,13 +8,16 @@ export default function WorkDetailPage({
 }) {
   return (
     <section className="mx-auto max-w-3xl space-y-6">
-        <Image
+        <div className="relative h-64 w-full sm:h-80">
+            <Image
     src="/works/bicycle.png"
     alt="Bicycle"
     fill
     priority
     className="object-cover"
     />
+        </div>
+        
       <h1 className="text-3xl font-bold">{params.slug}</h1>
       <p className="text-gray-700">
         大学２年の夏に長野から京都までの約310kmを中山道を通って自転車で移動。

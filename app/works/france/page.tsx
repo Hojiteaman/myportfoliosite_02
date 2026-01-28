@@ -8,13 +8,15 @@ export default function WorkDetailPage({
 }) {
   return (
     <section className="mx-auto max-w-3xl space-y-6">
-        <Image
+        <div className="relative h-64 w-full sm:h-80">
+            <Image
     src="/works/france.png"
     alt="France"
     fill
     priority
     className="object-cover"
-  />
+  /></div>
+        
       <h1 className="text-3xl font-bold">{params.slug}</h1>
       <p className="text-gray-700">
         3週間にわたりアンジェ大学との共同プロジェクトとして、仮想空間でファッションショーを体験できるアプリケーションを山口武彦研究室のメンバーと制作した。役割分担のもと、自分は服の3Dモデルを担当した。時にはプロジェクト主導者のフィードバックをもらい、グループに還元するなど、コミュニケーションを大切にした。
