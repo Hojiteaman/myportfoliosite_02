@@ -100,7 +100,7 @@ function CircleProgress({ value }: { value: number }) {
 
 export default function HomePage() {
   return (
-    <section className="grid gap-14">
+    <section className="grid gap-14 bg--white">
       {/* ===== Profile Section ===== */}
       <section className="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
         {/* Profile Image */}

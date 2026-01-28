@@ -27,7 +27,7 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
-        <main className="mx-auto max-w-6xl bg-gray-100 px-4 py-10">
+        <main className="mx-auto max-w-6xl bg-white px-4 py-10">
           {children}
         </main>
 
