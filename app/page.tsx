@@ -75,7 +75,7 @@ function CircleProgress({ value }: { value: number }) {
   const strokeDashoffset = circumference - (value / 100) * circumference
 
   return (
-    <svg height={radius * 2} width={radius * 2}>
+    <svg height={radius * 2} width={radius * 2}　className="rotate-[-90deg]">
       <circle
         stroke="#e5edf3"
         fill="transparent"
@@ -109,8 +109,8 @@ export default function HomePage() {
           <Image
             src="/profile.png"
             alt="プロフィール写真"
-            width={180}
-            height={180}
+            width={240}
+            height={240}
             className="rounded-full object-cover shadow-md"
             priority
           />
