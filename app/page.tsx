@@ -136,6 +136,7 @@ export default function HomePage() {
       {/* ===== /Profile Section ===== */}
 
       {/* Hero Section */}
+      {/*
       <div className="rounded-2xl bg-white p-8 shadow">
         <h2 className="mt-4 text-center text-sm font-medium text-gray-900">Welcome to My Portfolio</h2>
         <p className="mb-6 text-gray-700">
@@ -156,7 +157,7 @@ export default function HomePage() {
           </a>
         </div>
       </div>
-
+*/}
       {/* Skills Section */}
       <div className="grid gap-6">
         <h3 className="text-2xl font-bold text-gray-900">Skills</h3>
