@@ -19,8 +19,8 @@ export default function RootLayout({
           <div className="mx-auto flex max-w-6xl items-center bg-white justify-between px-4 py-4">
             <h1 className="mt-4 text-center text-sm font-medium text-gray-900">植杉匠のポートフォリオ</h1>
             <nav className="space-x-6 text-sm font-medium">
-              <Link href="/" className="hover:text-gray-900">Home</Link>
-              <Link href="/works" className="mt-4 text-center text-sm font-medium text-gray-900">Works</Link>
+              <Link href="/" className="hover:underline font-medium text-gray-900">Home</Link>
+              <Link href="/works" className="mt-4 text-center text-sm underline font-medium text-gray-900">Works</Link>
               <Link href="/axis" className="hover:underline text-gray-900">企業選びの軸</Link>
             </nav>
           </div>
