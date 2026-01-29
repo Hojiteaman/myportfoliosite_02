@@ -17,16 +17,16 @@ export default function AxisPage() {
 
         {/* 円② 趣味 */}
         <AxisCircle className="md:absolute md:right-1/2 md:top-24 md:translate-x-72">
-          自分の趣味を
+          趣味を
           <br />
           楽しめる環境
         </AxisCircle>
 
         {/* 円③ 価値 */}
         <AxisCircle className="md:absolute md:bottom-1">
-          価値の高いものを
+          価値ある解決を
           <br />
-          提供できる環境
+          通じた成長と社会貢献
         </AxisCircle>
 
         {/* 中央メッセージ（PCのみ） */}
