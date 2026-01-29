@@ -3,7 +3,7 @@ export default function AxisPage() {
     <main className="mx-auto max-w-5xl px-4 py-16">
       {/* タイトル */}
       <h1 className="mb-12 text-2xl font-bold text-gray-900">
-        企業選びの軸
+        企業選択の軸
       </h1>
 
       {/* ===== グラフィカルエリア ===== */}
@@ -30,7 +30,7 @@ export default function AxisPage() {
         </AxisCircle>
 
         {/* 中央メッセージ（PCのみ） */}
-        <div className="pointer-events-none absolute hidden h-40 w-40 items-center justify-center rounded-full bg-white text-center text-sm font-semibold text-gray-800 shadow md:flex">
+        <div className="pointer-events-none absolute hidden h-60 w-60 items-center justify-center rounded-full bg-white text-center text-sm font-semibold text-gray-800 shadow md:flex">
           自分が
           <br />
           働きたい企業
@@ -47,7 +47,7 @@ export default function AxisPage() {
 
         <AxisText
           title="趣味を楽しめる環境"
-          text="趣味はリフレッシュだけでなく、新たな発想や創造力を育む源泉でもあります。趣味を楽しみながら働ける環境は、仕事の質を高めると考えています"
+          text="趣味はリフレッシュだけでなく、新たな発想や創造力を育む源泉でもあります。趣味を楽しみながら働ける環境にいることで、健康的かつ持続的に高いパフォーマンスを発揮できると考えています。"
           text2=""
         />
 
