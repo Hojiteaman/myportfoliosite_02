@@ -14,7 +14,7 @@ export default function WorkDetailPage({
     alt="Drone VR"
     fill
     priority
-    className="object-cover"
+    className="object-contain"
   />
         </div>
         

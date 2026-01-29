@@ -30,7 +30,7 @@ export default function AxisPage() {
         </AxisCircle>
 
         {/* 中央メッセージ（PCのみ） */}
-        <div className="pointer-events-none absolute hidden h-60 w-60 items-center justify-center rounded-full bg-white text-center text-sm font-semibold text-gray-800 shadow md:flex">
+        <div className="pointer-events-none absolute hidden h-45 w-45 items-center justify-center rounded-full bg-white text-center text-sm font-semibold text-gray-800 shadow md:flex">
           自分が
           <br />
           働きたい企業
