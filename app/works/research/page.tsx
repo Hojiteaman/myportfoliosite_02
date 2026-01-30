@@ -17,13 +17,13 @@ export default function WorkDetailPage({
         className="object-contain bg-gray-300 pt-safe"
         />
       <h1 className="text-3xl font-bold">{params.slug}</h1>
-      <p className="text-gray-700">
+      <p className="font-semibold text-gray-700">
         研究内容
       </p>
     </section>
 
     <section className="max-w-4xl mx-auto px-6 py-16">
-        <h1 className="font-semibond text-gray-900">
+        <h1 className="font-semibold text-gray-900">
           ゴーグル型冷覚提示による瞬目誘発システム
         </h1>
 

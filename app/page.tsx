@@ -30,7 +30,7 @@ const experience = [
   },
   {
     period: '2023 -',
-    title: 'Project Based Learning',
+    title: 'Project Base Learning',
     description:
       'フランス人留学生とチームを組み、「仮想食」をテーマに開発。',
   },
