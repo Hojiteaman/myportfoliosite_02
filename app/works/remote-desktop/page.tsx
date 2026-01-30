@@ -36,7 +36,7 @@ export default function WorkDetailPage({
                 className="object-cover"
                 />
         </div>
-        <p>仮想空間での様子</p>
+        <p className="text-center text-gray-700">仮想空間での様子</p>
         <br></br>
         <br></br>
 
