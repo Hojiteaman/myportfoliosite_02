@@ -31,6 +31,15 @@ export default function WorkDetailPage({
         しかし、制作したプラグインを試したら、仮想空間に表示された映像は崩れていたり色ずれが起きていました。この問題の原因はデータの分割数の誤りや不必要なペイロードの削除した上でデコード処理していたことでありました。<br />
         Wire Sharkを使用してTelloから送られてくるデータを解析することで原因が判明し、対処することができました。<br />
       </p>
+      <div className="relative h-64 w-full sm:h-80">
+      <Image
+                      src="/works/droneimage.png"
+                      alt="image drone"
+                      fill
+                      priority
+                      className="object-cover"
+                      />
+              </div>
     </section>
   )
 }
