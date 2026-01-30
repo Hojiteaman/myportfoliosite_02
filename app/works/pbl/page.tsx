@@ -19,7 +19,7 @@ export default function WorkDetailPage({
         </div>
         
       <h1 className="text-3xl font-bold">{params.slug}</h1>
-      <p className="font-semibold text-gray-900">PBLとは</p>
+      <p className="font-semibold text-gray-900">PBLの内容</p>
       <p className="text-gray-700">
 フランス人留学生とグループを組み、特定のテーマに沿ったVRプロジェクトを製作し、発表するイベント。<br />私を含む日本人2人、フランス人2人でチームを組み、学部3年の5月から8月まで取り組みました。<br />
 </p>

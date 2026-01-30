@@ -28,12 +28,12 @@ export default function RootLayout({
         <main className="min-h-screen w-full bg-white px-4 py-10">
           {children}
         </main>
-
+{/*
         <footer className="border-t bg-white">
           <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-gray-500">
             © {new Date().getFullYear()} My Portfolio. All rights reserved.
           </div>
-        </footer>
+        </footer>*/}
       </body>
     </html>
   )
