@@ -7,7 +7,7 @@ export default function WorkDetailPage({
   params: { slug: string }
 }) {
   return (
-    <section className="mx-auto max-w-3xl space-y-6">
+    <section className="relative w-full h-[60vh]">
         <Image
         src="/works/research.png"
         alt="Research"
