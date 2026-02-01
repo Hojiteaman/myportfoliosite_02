@@ -8,6 +8,7 @@ export default function WorkDetailPage({
 }) {
   return (
     <section className="mx-auto max-w-3xl space-y-6">
+      <h1 className="text-3xl font-bold">{params.slug}</h1>
         <div className="relative h-64 w-full sm:h-80">
             <Image
     src="/works/bicycle.jpeg"
@@ -21,7 +22,7 @@ export default function WorkDetailPage({
       <h1 className="text-3xl font-bold">{params.slug}</h1>
       <div className="relative h-64 w-full sm:h-80">
             <Image
-                            src="/works/bicycleroad.jpeg"
+                            src="/works/bicycleroad.png"
                             alt="image bicycle road"
                             fill
                             priority
