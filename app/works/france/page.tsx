@@ -17,7 +17,8 @@ export default function WorkDetailPage({
     className="object-cover"
   /></div>
         
-      <h1 className="text-3xl font-bold">{params.slug}</h1>
+      <h1 className="text-3xl text-gray-700 font-bold">フランス短期留学</h1>
+      <p className="font-semibold text-gray-900">短期留学の内容</p>
       <p className="text-gray-700">
         3週間にわたりアンジェ大学との共同プロジェクトとして、仮想空間でファッションショーを体験できるアプリケーションを山口武彦研究室のメンバーと制作しました。<br />
         役割分担のもと、私は服の3Dモデルを担当し,時にはプロジェクト主導者のフィードバックをもらい、グループに還元するなど、コミュニケーションも大切にしました。<br />
@@ -32,10 +33,10 @@ export default function WorkDetailPage({
                       alt="image homestay"
                       fill
                       priority
-                      className="object-cover"
+                      className="object-contain"
                       />
               </div>
-              <p className="text-center text-gray-700">ホームファミリーとの写真</p>
+              <p className="text-center text-gray-400">ホームファミリーとの写真</p>
               <p className="text-gray-700">留学中に誕生日を迎えた私に、ホームファミリーがサプライズでケーキを用意してくれました。<br />あまりの驚きに、泣きそうになっています。</p>
     </section>
   )

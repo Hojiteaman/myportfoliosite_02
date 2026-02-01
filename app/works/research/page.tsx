@@ -16,7 +16,7 @@ export default function WorkDetailPage({
         priority
         className="object-contain bg-gray-300 pt-safe"
         />
-      <h1 className="text-3xl font-bold">{params.slug}</h1>
+      
       <p className="font-semibold text-gray-700">
         研究内容
       </p>
@@ -40,6 +40,50 @@ export default function WorkDetailPage({
           構成としてはVRHMDで目の状態をリアルタイムに測定し、特定のタイミングで起動信号を発信。その信号はArudinoUnoに送られ、噴射放置を起動するようになっています。<br />
           実験装置の製作にあたって、指定温度に管理した空気を保温するために装置の小型化やアルミホイルの使用などの工夫を行いました。<br />
         </p>
+        <div className="relative h-64 w-full sm:h-80">
+                    <Image
+                        src="/works/research_airsystem.png"
+                        alt="image research air system"
+                        fill
+                        priority
+                        className="object-contain"
+                        />
+                </div>
+                <p className="text-center text-gray-400">噴射放置の内部</p>
+                <p className="text-gray-700">
+                  噴射放置には熱源としてペルチェ素子を使用しており、電流操作によって温度管理が可能になっています。<br />
+                  また、マイクロブロアによって内部の空気を噴射します。<br/>元々噴射放置はより大きなサイズになっていましたが、保温の問題で小型化することになりました。<br />
+      </p>
+       <div className="relative h-64 w-full sm:h-80">
+                    <Image
+                        src="/works/research_arduino.png"
+                        alt="image research arduino"
+                        fill
+                        priority
+                        className="object-contain"
+                        />
+                </div>
+                <p className="text-center text-gray-400">Arduino Unoによる電子機器の制御</p>
+                <p className="text-gray-700">
+                  Arduino Unoによって各種電子機器を制御しています。<br />
+                  温度センサーの値をもとに、指定温度以上になるとペルチェ素子への電流をオフにするようになっています。<br />
+                  また、マイクロブロアを起動するために高周波のパルス波もArduino Unoから生成しています。<br/>
+                </p>
+                 <div className="relative h-64 w-full sm:h-80">
+                    <Image
+                        src="/works/research_connection.png"
+                        alt="image research connection"
+                        fill
+                        priority
+                        className="object-contain"
+                        />
+                </div>
+                <p className="text-center text-gray-400">VRHMDとの連携</p>
+                <p className="text-gray-700">
+                  VRHMDはソケット通信とシリアル通信を介してArduio Unoに繋がっています。<br />
+                  構成としてはVRHMDで目の状態をリアルタイムに測定し、特定のタイミングで起動信号を発信。その信号はArudinoUnoに送られ、噴射放置を起動するようになっています。
+                </p>
+      
         <p className="text-gray-700 leading-relaxed mb-6">
           実験によって本装置によって瞬目数を増やすとともに、温度要素によって侵襲的不快感を軽減できることを確認しました。一方で装置の重量が重すぎたり、噴射ノズルを被験者ごとに調節する必要があるなどの課題も明らかになりました。<br />
           今後は装置の軽量化やノズル調節の修正などの装置の改良に取り組むとともに、オフィス環境での効果検証を行っていく予定です。

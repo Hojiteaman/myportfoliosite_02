@@ -28,7 +28,7 @@ export default function WorkDetailPage({
                             className="object-contain"
                             />
                     </div>
-                    <p className="text-center text-gray-700">京都までの旅路</p>
+                    <p className="text-center text-gray-400">京都までの旅路</p>
       <p className="text-gray-700">
         大学２年の夏に長野から京都までの300km以上の道のりを中山道を通って自転車で移動。<br/>夏真っ只中のお盆の時期でありましたが、5日間は天候に恵まれました。
       </p>
@@ -42,10 +42,10 @@ export default function WorkDetailPage({
                             alt="image tent"
                             fill
                             priority
-                            className="object-cover"
+                            className="object-contain"
                             />
                     </div>
-                    <p className="text-center text-gray-700">野宿の様子</p>
+                    <p className="text-center text-gray-400">野宿の様子</p>
       <p className="text-gray-700">道中は公園にテントを立てて、野宿しました。近くに入浴施設やお店があるような場所を事前に選んだため、快適に過ごすことができました。<br/>一日大体70kmは走って体がクタクタだったので、寝床を用意したらすぐに寝れました。</p>
       <div className="relative h-64 w-full sm:h-80">
             <Image
@@ -53,10 +53,10 @@ export default function WorkDetailPage({
                             alt="image view"
                             fill
                             priority
-                            className="object-cover"
+                            className="object-contain"
                             />
                     </div>
-                    <p className="text-center text-gray-700">早朝の寝覚めの床</p>
+                    <p className="text-center text-gray-400">早朝の寝覚めの床</p>
       <p className="text-gray-700">木曽路の景勝地の一つ「寝覚めの床」の早朝の様子。<br />熱中症対策として早朝から移動していましたが、そのおかげで美しい景色を独り占めできました。</p>
     </section>
   )

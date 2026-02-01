@@ -14,11 +14,11 @@ export default function WorkDetailPage({
                 alt="remote desktop"
                 fill
                 priority
-                className="object-cover"
+                className="object-contain"
                 />
         </div>
         
-      <h1 className="text-3xl font-bold">{params.slug}</h1>
+      <h1 className="text-3xl text-gray-700 font-bold">リモートデスクトップアプリ開発</h1>
       <p className="font-semibold text-gray-900">開発の動機</p>
       <p className="text-gray-700">
 大学3年の春ごろにMeta Quest2を購入し、VRの技術を体験。<br />仮想空間が現実空間の制限を無視出来るという特徴に気づき、リモートデスクトップアプリに興味を持ちました。<br />既存のリモートデスクトップアプリを私の環境下で試しましたが、処理負荷があまりにも大きすぎてフリーズすることが頻発。そこで自分の環境下でもしっかりと動くようなアプリケーションを作ることを決めました。<br />
@@ -33,10 +33,10 @@ export default function WorkDetailPage({
                 alt="image remote desktop"
                 fill
                 priority
-                className="object-cover"
+                className="object-contain"
                 />
         </div>
-        <p className="text-center text-gray-700">仮想空間での様子</p>
+        <p className="text-center text-gray-400">仮想空間での様子</p>
         <br></br>
         <br></br>
 

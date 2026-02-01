@@ -18,12 +18,12 @@ export default function WorkDetailPage({
   />
         </div>
         
-      <h1 className="text-3xl font-bold">{params.slug}</h1>
+      <h1 className="text-3xl text-gray-700 font-bold">ドローン操作アプリ開発</h1>
       <p className="font-semibold text-gray-900">開発の動機</p>
       <p className="text-gray-700">
         修士1年の春頃にTelloを購入。カメラ搭載であるため、VRと組み合わせることで実際に飛んでいるような体験ができるのではと考え、開発を開始しました。
       </p>
-      <p className="font-semibold text-gray-900">開発の様子</p>
+      <p className="font-semibold text-gray-900">開発過程</p>
       <p className="text-gray-700">
         Telloは特定のポートにコマンドを送ればその通りに動く仕組みのため、コントローラによる操作はすぐにできましたが、カメラ映像をVRHMDに表示する処理に大変苦しみました。<br />
         Tello公式が提供するサンプルスクリプトはPythonで作られたもので、描画処理にはOpenCVを使用していますが、Unityにはそのようなリアルタイムにデコードし描画するアセットが存在しませんでした。<br />
@@ -37,10 +37,10 @@ export default function WorkDetailPage({
                       alt="image drone"
                       fill
                       priority
-                      className="object-cover"
+                      className="object-contain"
                       />
               </div>
-              <p className="text-center text-gray-700">仮想空間での様子</p>
+              <p className="text-center text-gray-400">仮想空間での様子</p>
     </section>
   )
 }
