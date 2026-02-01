@@ -28,7 +28,7 @@ export default function WorkDetailPage({
 
       <div className="relative h-64 w-full sm:h-80">
             <Image
-                            src="/works/tent.png"
+                            src="/works/tent.jpeg"
                             alt="image tent"
                             fill
                             priority
@@ -39,7 +39,7 @@ export default function WorkDetailPage({
       <p className="text-gray-700">道中は公園にテントを立てて、野宿しました。近くに入浴施設やお店があるような場所を事前に選んだため、快適に過ごすことができました。</p>
       <div className="relative h-64 w-full sm:h-80">
             <Image
-                            src="/works/view.png"
+                            src="/works/view.jpeg"
                             alt="image view"
                             fill
                             priority
