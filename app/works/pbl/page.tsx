@@ -21,7 +21,7 @@ export default function WorkDetailPage({
       <h1 className="text-3xl text-gray-700 font-bold">PBL</h1>
       <p className="font-semibold text-gray-900">PBLの内容</p>
       <p className="text-gray-700">
-　フランス人留学生とグループを組み、特定のテーマに沿ったVRプロジェクトを製作し、発表するイベント。<br />私を含む日本人2人、フランス人2人でチームを組み、学部3年の5月から8月まで取り組みました。<br />
+　フランス人留学生とグループを組み、特定のテーマに沿ったVRプロジェクトを製作し、発表するイベント。私を含む日本人2人、フランス人2人でチームを組み、学部3年の5月から8月まで取り組みました。<br />
 </p>
       <p className="font-semibold text-gray-900">取り組んだ内容</p>
       <p className="text-gray-700">
