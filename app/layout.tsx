@@ -28,12 +28,16 @@ export default function RootLayout({
         <main className="min-h-screen w-full bg-white px-4 py-10">
           {children}
         </main>
-{/*
+
         <footer className="border-t bg-white">
           <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} My Portfolio. All rights reserved.
+            <nav className="space-x-6 text-sm font-medium">
+              <Link href="/" className="hover:underline font-medium text-gray-900">Home</Link>
+              <Link href="/works" className="hover:underline font-medium text-gray-900">Works</Link>
+              <Link href="/axis" className="hover:underline font-medium text-gray-900">企業選択の軸</Link>
+            </nav>
           </div>
-        </footer>*/}
+        </footer>
       </body>
     </html>
   )

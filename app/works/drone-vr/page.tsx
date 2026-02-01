@@ -33,6 +33,18 @@ export default function WorkDetailPage({
       </p>
       <div className="relative h-64 w-full sm:h-80">
       <Image
+                      src="/works/decodefaild.png"
+                      alt="image decode faild"
+                      fill
+                      priority
+                      className="object-contain"
+                      />
+              </div>
+              <p className="text-center text-gray-400">デコード失敗時の表示</p>
+      <p className="text-gray-700">失敗したプラグインを使用した際の映像。色ずれやノイズが発生していました。</p>
+
+      <div className="relative h-64 w-full sm:h-80">
+      <Image
                       src="/works/droneimage.png"
                       alt="image drone"
                       fill
@@ -41,6 +53,10 @@ export default function WorkDetailPage({
                       />
               </div>
               <p className="text-center text-gray-400">仮想空間での様子</p>
+              <p className="text-gray-700">正常に動作した際の映像。しっかりとドローンのカメラ映像が表示されました。<br/>
+              完成したアプリを試したところ、空を飛んでいるような体験ができ、大変満足のいくものになりましたが、人によってはVR酔いを生じさせたり、ドローン側の制御やカメラ位置に課題があることがわかりました。<br/>
+              今後はこうした課題を解決し、オープンキャンパスなどで公開できるようにしていきたいと考えています。
+              </p>
     </section>
   )
 }
