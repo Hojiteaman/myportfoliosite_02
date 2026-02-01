@@ -67,6 +67,8 @@ const experience = [
 ]
 
 
+
+
 function CircleProgress({ value }: { value: number }) {
   const radius = 42
   const stroke = 8
@@ -98,6 +100,15 @@ function CircleProgress({ value }: { value: number }) {
     </svg>
   )
 }
+
+const getSkillRank = (level: number) => {
+  if (level <= 25) return '初級'
+  if (level >= 75) return '上級'
+  if (level >= 50) return '中級'
+  return '初級'
+}
+
+
 
 export default function HomePage() {
   return (
@@ -162,9 +173,12 @@ export default function HomePage() {
       <div className="grid gap-6">
         <h3 className="text-2xl font-bold text-gray-900">Skills</h3>
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
-          {skills.map((skill) => (
+          {skills.map((skill) => {
+             const rank = getSkillRank(skill.level)
+             return (
             <div
               key={skill.name}
+              tabIndex={0}
               className="rounded-2xl bg-white p-5 shadow hover:shadow-md transition"
             >
               <div className="relative mx-auto flex h-[96px] w-[96px] items-center justify-center">
@@ -179,11 +193,11 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="mt-4 text-center text-sm font-medium text-gray-900">
-                {skill.name}
+                {rank}{skill.name}
               </p>
             </div>
             
-          ))}
+          )})}
         </div>
       </div>
       {/* Experience Section */}
