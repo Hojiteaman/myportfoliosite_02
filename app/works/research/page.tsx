@@ -49,7 +49,8 @@ export default function WorkDetailPage({
                         />
                 </div>
                 <p className="text-center text-gray-400">噴射放置の内部</p>
-                <p></p>
+                <br>  </br>
+                <br>  </br>
                 <p className="text-gray-700">
                   噴射放置には熱源としてペルチェ素子を使用しており、電流操作によって温度管理が可能になっています。<br />
                   また、マイクロブロアによって内部の空気を噴射します。<br/>元々噴射放置はより大きなサイズになっていましたが、保温の問題で小型化することになりました。<br />
@@ -64,7 +65,8 @@ export default function WorkDetailPage({
                         />
                 </div>
                 <p className="text-center text-gray-400">Arduino Unoによる電子機器の制御</p>
-                <p></p>
+                  <br>  </br>
+                  <br>  </br>
                 <p className="text-gray-700">
                   Arduino Unoによって各種電子機器を制御しています。<br />
                   温度センサーの値をもとに、指定温度以上になるとペルチェ素子への電流をオフにするようになっています。<br />
@@ -80,12 +82,14 @@ export default function WorkDetailPage({
                         />
                 </div>
                 <p className="text-center text-gray-400">VRHMDとの連携</p>
-                <p></p>
+                  <br></br>
+                  <br>  </br>
                 <p className="text-gray-700">
                   VRHMDはソケット通信とシリアル通信を介してArduio Unoに繋がっています。<br />
                   構成としてはVRHMDで目の状態をリアルタイムに測定し、特定のタイミングで起動信号を発信。その信号はArudinoUnoに送られ、噴射放置を起動するようになっています。
                 </p>
-      
+                  <br>  </br>
+                  <br>    </br>
         <p className="text-gray-700 leading-relaxed mb-6">
           実験によって本装置によって瞬目数を増やすとともに、温度要素によって侵襲的不快感を軽減できることを確認しました。一方で装置の重量が重すぎたり、噴射ノズルを被験者ごとに調節する必要があるなどの課題も明らかになりました。<br />
           今後は装置の軽量化やノズル調節の修正などの装置の改良に取り組むとともに、オフィス環境での効果検証を行っていく予定です。
