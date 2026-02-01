@@ -8,7 +8,6 @@ export default function WorkDetailPage({
 }) {
   return (
     <section className="mx-auto max-w-3xl space-y-6">
-      <h1 className="text-3xl font-bold">{params.slug}</h1>
         <div className="relative h-64 w-full sm:h-80">
             <Image
     src="/works/bicycle.jpeg"
@@ -19,7 +18,7 @@ export default function WorkDetailPage({
     />
         </div>
         
-      <h1 className="text-3xl font-bold">{params.slug}</h1>
+      <h1 className="text-3xl text-gray-700 font-bold">自転車旅</h1>
       <div className="relative h-64 w-full sm:h-80">
             <Image
                             src="/works/bicycleroad.png"
