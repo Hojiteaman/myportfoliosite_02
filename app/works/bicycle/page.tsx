@@ -25,7 +25,7 @@ export default function WorkDetailPage({
                             alt="image bicycle road"
                             fill
                             priority
-                            className="object-cover"
+                            className="object-contain"
                             />
                     </div>
                     <p className="text-center text-gray-700">京都までの旅路</p>
