@@ -25,6 +25,29 @@ export default function WorkDetailPage({
       <p className="text-gray-700">
         低コストかつスムーズに移動できるように、事前に1日の行動計画を立てて実行に移しました。<br />予想外のトラブルが生じたとしても計画のおかげで迅速に対処することができ、計画の重要性を感じた旅となりました。
       </p>
+
+      <div className="relative h-64 w-full sm:h-80">
+            <Image
+                            src="/works/tent.png"
+                            alt="image tent"
+                            fill
+                            priority
+                            className="object-cover"
+                            />
+                    </div>
+                    <p className="text-center text-gray-700">野宿の様子</p>
+      <p className="text-gray-700">道中は公園にテントを立てて、野宿しました。近くに入浴施設やお店があるような場所を事前に選んだため、快適に過ごすことができました。</p>
+      <div className="relative h-64 w-full sm:h-80">
+            <Image
+                            src="/works/view.png"
+                            alt="image view"
+                            fill
+                            priority
+                            className="object-cover"
+                            />
+                    </div>
+                    <p className="text-center text-gray-700">早朝の寝覚めの床</p>
+      <p className="text-gray-700">木曽路の景勝地の一つ「寝覚めの床」の早朝の様子。<br />熱中症対策で早朝から移動していましたが、そのおかげで美しい景色を独り占めできました。</p>
     </section>
   )
 }
