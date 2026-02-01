@@ -23,9 +23,8 @@ export default function WorkDetailPage({
     </section>
 
     <section className="max-w-4xl mx-auto px-6 py-16">
-        <h1 className="font-semibold text-gray-900">
-          ゴーグル型冷覚提示による瞬目誘発システム
-        </h1>
+      <h1 className="text-3xl text-gray-700 font-bold">ゴーグル型冷覚提示による瞬目誘発システム</h1>
+
 
         <p className="text-gray-700 leading-relaxed mb-6">
           情報機器作業時に生じる瞬目回数の減少による

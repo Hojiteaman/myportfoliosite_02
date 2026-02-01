@@ -30,7 +30,7 @@ export default function AxisPage() {
         </AxisCircle>
 
         {/* 中央メッセージ（PCのみ） */}
-        <div className="pointer-events-none absolute hidden h-45 w-45 items-center justify-center rounded-full bg-white text-center text-sm font-semibold text-gray-800 shadow md:flex">
+        <div className="pointer-events-none absolute hidden h-45 w-45 items-center justify-center rounded-full bg-white text-center text-sm font-semibold text-gray-800 shadow md:flex border-2 border-black">
           自分が
           <br />
           働きたい企業
@@ -52,9 +52,9 @@ export default function AxisPage() {
         />
 
         <AxisText
-          title="価値ある解決を通じた成長と社会貢献"
-          text="課題に対して価値の高い解決策を提供できる企業で働くことは、社会貢献だけでなく自身の成長にも繋がると考えています"
-          text2=""
+          title="確かな成長と社会貢献ができる環境"
+          text="近年のAIの発展により、エンジニアとしての役割や求められる能力も変化してきています。"
+          text2="特にエンジニアとして将来にわたって価値を提供し続けられるためには、対話を通じた課題解決や専門性の高い開発などの経験を多く触れる必要があると考えています。そのような経験を早い段階から積める環境で働きたいと考えています。"
         />
       </section>
     </main>

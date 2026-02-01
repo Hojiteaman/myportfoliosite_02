@@ -193,7 +193,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="mt-4 text-center text-sm font-medium text-gray-900">
-                {rank}{skill.name}
+                {skill.name}　({rank})
               </p>
             </div>
             
